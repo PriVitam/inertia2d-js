@@ -1,0 +1,33 @@
+{
+  "name": "inertia2d-js",
+  "version": "1.0.0",
+  "description": "Javascript port of the popular c++ physics engine box2d",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-polyfill --require babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuyue10/inertia2d-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuyue10/inertia2d-js/issues"
+  },
+  "homepage": "https://github.com/chuyue10/inertia2d-js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1",
+    "mocha-cli": "^1.0.1"
+  }
+}
